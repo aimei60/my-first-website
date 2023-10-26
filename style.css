@@ -4,3 +4,13 @@ body {
     background-image: url(homepagebg.jpg);
 }
 
+.titlebar {
+    background-color: rgb(89, 191, 89);
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+}
