@@ -26,10 +26,21 @@ body {
 .innerdescriptionbar {
     background-color: rgb(109, 193, 109);
     padding: 20px;
-    border-radius: 250px;
+    border-radius: 15px;
     text-align: center;
 }
 
 .description {
     color: antiquewhite;
 }
+
+.image {
+    height: 750px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+
+
