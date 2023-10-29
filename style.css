@@ -17,3 +17,20 @@ body {
     font-size: 30px;
     color: rgb(231, 203, 150);
 }
+
+.descriptionbar {
+    padding: 25px;
+    
+}
+
+.innerdescriptionbar {
+    background-color: rgb(109, 193, 109);
+    padding: 20px;
+    border-radius: 250px;
+    text-align: center;
+}
+
+.description {
+    color: antiquewhite;
+}
+
