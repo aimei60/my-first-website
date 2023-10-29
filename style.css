@@ -43,4 +43,13 @@ body {
     border-radius: 100px;
 }
 
+.aviss-image {
+    height: 500px;
+    width: 250px;
+}
+
+.pera-image {
+    height: 250px;
+    width: 500px;
+}
 
