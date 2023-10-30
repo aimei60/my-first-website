@@ -35,21 +35,56 @@ body {
 }
 
 .image {
-    height: 750px;
-    width: 500px;
+    height: 650px;
+    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 100px;
+    border: white 5px solid;
 }
 
+.both-locations-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 40px;
+    flex-flow: row wrap;
+
+}
 .aviss-image {
-    height: 500px;
+    height: 275px;
     width: 250px;
+    object-fit: cover;
+    border: white 5px solid;
+    border-radius: 5px;
 }
 
 .pera-image {
     height: 250px;
-    width: 500px;
+    width: 320px;
+    object-fit: cover;
+    border: white 5px solid;
+    border-radius: 5px;
 }
 
+.ABGbar {
+    background-color: rgb(109, 193, 109);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.PBGbar {
+    background-color: rgb(109, 193, 109);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+.ABG,
+.PBG {
+    padding-bottom: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
