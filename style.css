@@ -5,7 +5,8 @@ body {
     margin: 0;
 }
 
-.titlebar {
+/* title section */
+.title-container {
     background-color: rgb(109, 193, 109);
     font-weight: bold;
     padding: 20px;
@@ -18,12 +19,13 @@ body {
     color: rgb(231, 203, 150);
 }
 
-.descriptionbar {
+/* Introduction section */
+.description-container {
     padding: 25px;
     
 }
 
-.innerdescriptionbar {
+.inner-container {
     background-color: rgb(109, 193, 109);
     padding: 20px;
     border-radius: 15px;
@@ -34,6 +36,7 @@ body {
     color: antiquewhite;
 }
 
+/* Map of Sri Lanka section */
 .image {
     height: 650px;
     width: 400px;
@@ -44,6 +47,7 @@ body {
     border: white 5px solid;
 }
 
+/* Pictures section */
 .both-locations-container {
     display: flex;
     justify-content: center;
@@ -53,7 +57,7 @@ body {
 
 }
 .aviss-image {
-    height: 275px;
+    height: 280px;
     width: 250px;
     object-fit: cover;
     border: white 5px solid;
@@ -68,19 +72,12 @@ body {
     border-radius: 5px;
 }
 
-.ABGbar {
-    background-color: rgb(109, 193, 109);
-    padding: 20px;
-    border-radius: 20px;
-}
-
+.ABGbar,
 .PBGbar {
     background-color: rgb(109, 193, 109);
     padding: 20px;
     border-radius: 20px;
-
 }
-
 
 .ABG,
 .PBG {
