@@ -44,7 +44,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 100px;
-    border: white 5px solid;
+    border: rgb(231, 203, 150) 5px solid;
 }
 
 /* Pictures section */
@@ -60,7 +60,7 @@ body {
     height: 280px;
     width: 250px;
     object-fit: cover;
-    border: white 5px solid;
+    border: rgb(231, 203, 150) 5px solid;
     border-radius: 5px;
 }
 
@@ -68,7 +68,7 @@ body {
     height: 250px;
     width: 320px;
     object-fit: cover;
-    border: white 5px solid;
+    border: rgb(231, 203, 150) 5px solid;
     border-radius: 5px;
 }
 
