@@ -36,10 +36,21 @@ body {
     color: antiquewhite;
 }
 
+.flower-description-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.flower-description {
+    color: rgb(231, 203, 150);
+    font-size: 20px;
+  
+}
+
 .flower-container {
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    padding: 10px;
     flex-flow: row wrap;
 }
 
@@ -53,10 +64,10 @@ body {
 .flower1couroupita,
 .flower1couroupita-tree,
 .orchid {
-    height: 280px;
-    width: 250px;
+    height: 400px;
+    width: 380px;
     object-fit: cover;
     border: rgb(231, 203, 150) 5px solid;
     border-radius: 5px;
-    margin: 10px;
+    margin: 20px;
 }
