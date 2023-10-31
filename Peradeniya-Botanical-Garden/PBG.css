@@ -35,3 +35,28 @@ body {
 .description {
     color: antiquewhite;
 }
+
+.flower-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-flow: row wrap;
+}
+
+.flower-inner-container {
+    display: flex;
+    background-color: rgb(109, 193, 109);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.flower1couroupita,
+.flower1couroupita-tree,
+.orchid {
+    height: 280px;
+    width: 250px;
+    object-fit: cover;
+    border: rgb(231, 203, 150) 5px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
