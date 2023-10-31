@@ -44,13 +44,13 @@ body {
 .flower-description {
     color: rgb(231, 203, 150);
     font-size: 30px;
-  
 }
 
 .flower-container {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    align-items: center;
 }
 
 .flower-inner-container {
@@ -59,6 +59,8 @@ body {
     border-radius: 20px;
     padding: 10px;
     flex-wrap: wrap;
+    position: relative;
+    margin: 10px; 
 }
 
 .flower1couroupita,
@@ -72,16 +74,7 @@ body {
     margin: 20px;
 }
 
-.flower-container {
-    display: flex;
-    justify-content: space-around; 
-    align-items: center; 
-  }
-  
-.flower-inner-container {
-    position: relative;
-    margin: 10px; 
-  }
+/* image hover overlay */
   
 .overlay {
     position: absolute;
@@ -102,7 +95,7 @@ body {
 
 .text {
     color: rgb(231, 203, 150) 5px solid;
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
     top: 50%;
     left: 50%;
