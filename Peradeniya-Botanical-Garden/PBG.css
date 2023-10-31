@@ -43,7 +43,7 @@ body {
 
 .flower-description {
     color: rgb(231, 203, 150);
-    font-size: 20px;
+    font-size: 30px;
   
 }
 
@@ -51,7 +51,6 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    flex-flow: row wrap;
 }
 
 .flower-inner-container {
@@ -59,6 +58,7 @@ body {
     background-color: rgb(109, 193, 109);
     border-radius: 20px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .flower1couroupita,
@@ -71,3 +71,43 @@ body {
     border-radius: 5px;
     margin: 20px;
 }
+
+.flower-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+  }
+  
+.flower-inner-container {
+    position: relative;
+    margin: 10px; 
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(109, 193, 109);
+  }
+
+.flower-inner-container:hover .overlay {
+    opacity: 0.75;
+  }
+
+.text {
+    color: rgb(231, 203, 150) 5px solid;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
