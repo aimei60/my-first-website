@@ -176,3 +176,73 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+/* Images section for the tree section*/
+
+.monkey-description-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.monkey-description {
+    color: rgb(231, 203, 150);
+    font-size: 30px;
+}
+
+.monkey-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.monkey-inner-container {
+    display: flex;
+    background-color: rgb(109, 193, 109);
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    margin: 10px; 
+}
+
+.monkey3,
+.monkey5,
+.monkey6 {
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+    border: rgb(231, 203, 150) 5px solid;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* image hover overlay for the monkey section */
+  
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(109, 193, 109);
+  }
+
+.monkey-inner-container:hover .overlay3 {
+    opacity: 0.75;
+  }
+
+.text2 {
+    color: rgb(231, 203, 150) 5px solid;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
