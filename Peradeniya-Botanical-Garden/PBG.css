@@ -177,7 +177,7 @@ body {
     text-align: center;
   }
 
-/* Images section for the tree section*/
+/* Images section for the monkey section*/
 
 .monkey-description-container {
     margin: 10px;
@@ -246,3 +246,15 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+.button-container {
+    background-color: rgb(109, 193, 109);
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.Homepage {
+    
+}
