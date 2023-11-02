@@ -56,7 +56,7 @@ body {
     flex-flow: row wrap;
 
 }
-.aviss-image {
+.swee-image {
     height: 280px;
     width: 250px;
     object-fit: cover;
@@ -72,14 +72,14 @@ body {
     border-radius: 5px;
 }
 
-.ABGbar,
+.SBGbar,
 .PBGbar {
     background-color: rgb(109, 193, 109);
     padding: 20px;
     border-radius: 20px;
 }
 
-.ABG,
+.SBG,
 .PBG {
     padding-bottom: 20px;
     text-align: center;
