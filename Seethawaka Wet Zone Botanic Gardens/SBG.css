@@ -36,3 +36,243 @@ body {
     color: antiquewhite;
     font-size: 20px;
 }
+
+/* Images section for the flowers section */
+
+.flower-description-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.flower-description {
+    color: rgb(231, 203, 150);
+    font-size: 30px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flower-inner-container {
+    display: flex;
+    background-color: rgb(109, 193, 109);
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    margin: 10px; 
+}
+
+.flower1,
+.flower2,
+.flower6 {
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+    border: rgb(231, 203, 150) 5px solid;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* image hover overlay for the flower section */
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(109, 193, 109);
+  }
+
+.flower-inner-container:hover .overlay {
+    opacity: 0.75;
+  }
+
+.text {
+    color: rgb(231, 203, 150) 5px solid;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Images section for the scenery section*/
+
+.scenic-description-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.scenic-description {
+    color: rgb(231, 203, 150);
+    font-size: 30px;
+}
+
+.scenic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.scenic-inner-container {
+    display: flex;
+    background-color: rgb(109, 193, 109);
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    margin: 10px; 
+}
+
+.scenic3,
+.scenic4,
+.scenic6 {
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+    border: rgb(231, 203, 150) 5px solid;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* image hover overlay for the scenery section */
+  
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(109, 193, 109);
+  }
+
+.scenic-inner-container:hover .overlay2 {
+    opacity: 0.75;
+  }
+
+.text1 {
+    color: rgb(231, 203, 150) 5px solid;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* Images section for the monkey section*/
+
+.waterfall-description-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.waterfall-description {
+    color: rgb(231, 203, 150);
+    font-size: 30px;
+}
+
+.waterfall-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.waterfall-inner-container {
+    display: flex;
+    background-color: rgb(109, 193, 109);
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    margin: 10px; 
+}
+
+.waterfall1,
+.waterfall2,
+.waterfall3 {
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+    border: rgb(231, 203, 150) 5px solid;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* image hover overlay for the waterfall section */
+  
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(109, 193, 109);
+  }
+
+.waterfall-inner-container:hover .overlay3 {
+    opacity: 0.75;
+  }
+
+.text2 {
+    color: rgb(231, 203, 150) 5px solid;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* bottom buttons section */
+
+.button-container {
+    background-color: rgb(109, 193, 109);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.Homepage {
+    color: rgb(231, 203, 150);
+    padding: 0px;
+    border: none;
+    background-color: rgb(109, 193, 109);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.PBG-button {
+    color: rgb(231, 203, 150);
+    padding: 0px;
+    border: none;
+    background-color: rgb(109, 193, 109);
+    font-size: 20px;
+    font-weight: bold;
+}
