@@ -194,6 +194,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .monkey-inner-container {
@@ -255,11 +256,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 3px;
 }
 
+.Homepage {
+    color: rgb(231, 203, 150);
+    padding: 0px;
+    border: none;
+    background-color: rgb(109, 193, 109);
+    font-size: 20px;
+    font-weight: bold;
+}
 
-
+.ABG-button {
+    color: rgb(231, 203, 150);
+    padding: 0px;
+    border: none;
+    background-color: rgb(109, 193, 109);
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
 
