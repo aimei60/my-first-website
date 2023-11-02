@@ -4,3 +4,35 @@ body {
     background-image: url(../homepagebg.jpg);
     margin: 0;
 }
+
+/* title section */
+.title-container {
+    background-color: rgb(109, 193, 109);
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(231, 203, 150);
+}
+
+/* Introduction section */
+.description-container {
+    padding: 25px;
+    
+}
+
+.inner-container {
+    background-color: rgb(109, 193, 109);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.description {
+    color: antiquewhite;
+    font-size: 20px;
+}
