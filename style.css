@@ -39,12 +39,10 @@ body {
 /* Map of Sri Lanka section */
 .image {
     height: 650px;
-    width: 400px;
+    width: 450px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100px;
-    border: rgb(231, 203, 150) 5px solid;
+    margin: auto;
+    margin: auto;
 }
 
 /* Pictures section */
