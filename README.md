@@ -5,3 +5,5 @@ I was inspired by my family holiday to create this website. All pictures were ta
 Credits:
 * Background pictures for the site were taken from the https://www.pexels.com/
 * Map of Sri Lanka was taken from Google images
+
+Site: https://aimei60.github.io/my-first-website/ 
