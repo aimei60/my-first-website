@@ -12,10 +12,11 @@ I was inspired by my family holiday to create this website. All pictures were ta
 - CSS3
 - Flexbox
 
+---
 ## What I learned
 
 - Gained experience building a multi-page website and connecting pages through internal links.
-- Learned how to create overlays and hover effects to enhance user interactio  
+- Learned how to create overlays and hover effects to enhance user interaction.
 - Improved my understanding of page structure and navigation flow.
 
 ## Preview
