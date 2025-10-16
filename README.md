@@ -2,10 +2,12 @@
 
 I was inspired by my family holiday to create this website. All pictures were taken by myself. I wanted to showcase some of the exotic plants I had seen. 
 
+---
 ## Live Demo
 
 [**View the live project here**](https://aimei60.github.io/my-first-website/) 
 
+---
 ## Technologies used
 
 - HTML5
@@ -19,6 +21,7 @@ I was inspired by my family holiday to create this website. All pictures were ta
 - Learned how to create overlays and hover effects to enhance user interaction.
 - Improved my understanding of page structure and navigation flow.
 
+---
 ## Preview
 Here is the preview of the website
 
@@ -29,6 +32,7 @@ Here is the preview of the website
 ![Screenshot of my website](screenshots/s5.png)
 ![Screenshot of my website](screenshots/s6.png)
 
+---
 ## Credits
 
 - Background pictures were sourced from https://www.pexels.com/
