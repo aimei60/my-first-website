@@ -1,4 +1,4 @@
-## Sri Lanka's Botanical Gardens Website
+# Sri Lanka's Botanical Gardens Website
 
 I was inspired by my family holiday to create this website. All pictures were taken by myself. I wanted to showcase some of the exotic plants I had seen. 
 
@@ -19,6 +19,7 @@ I was inspired by my family holiday to create this website. All pictures were ta
 - Improved my understanding of page structure and navigation flow.
 
 ## Preview
+
 Here is the preview of the website
 
 ![Screenshot of my website](screenshots/s1.png)
