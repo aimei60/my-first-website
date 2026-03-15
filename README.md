@@ -1,6 +1,6 @@
 # Sri Lanka's Botanical Gardens Website
 
-I was inspired by my family holiday to create this website. All pictures were taken by myself. I wanted to showcase some of the exotic plants I had seen. 
+I was inspired by my family holiday to create this website. All of the pictures were taken by myself. I wanted to showcase some of the exotic plants I had seen. 
 
 ## Live Demo
 
@@ -8,8 +8,8 @@ I was inspired by my family holiday to create this website. All pictures were ta
 
 ## Technologies used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Flexbox
 
 ## What I learned
